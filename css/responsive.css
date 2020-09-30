@@ -1,0 +1,376 @@
+@media (max-width: 767px) {
+    .block-wrapper h2 {
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .block-wrapper .row .col-md-6 {
+        padding: 20px 5px;
+    }
+
+    .home-top {
+        margin-bottom: 30px;
+    }
+
+    .title h2 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .list-why .col-md-3 {
+        margin-bottom: 25px;
+    }
+    .list-why .read-more {
+        padding-top: 0;
+    }
+    .item-agency a {
+        font-size: 15px;
+    }
+
+    .list-agen .col-md-3 {
+        margin-bottom: 20px;
+    }
+
+    .list-agen .read-more {
+        padding-top: 10px;
+    }
+    .read-more li {
+        margin-bottom: 10px;
+    }
+
+    .read-more li:last-child {
+        margin-bottom: 0;
+    }
+
+    .read-more a {}
+
+    .read-more li a {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .new-home h3 a {
+        font-size: 15px;
+        line-height: initial;
+    }
+
+    .new-home .avarta {
+        margin-bottom: 5px;
+    }
+
+    .list-news-home .col-md-3 {
+        margin-bottom: 15px;
+    }
+
+    .footer-top {
+        padding: 30px 0 0 0;
+    }
+
+    .item-footer h3 {
+        font-size: 16px;
+    }
+
+    .form-regis {
+    }
+
+    .footer-top .item-footer {
+        margin-bottom: 25px;
+    }
+
+    .item-footer ul a {
+        font-size: 15px;
+    }
+
+    .reserved {
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .footer-top .col-md-4 .item-footer {
+        padding-right: 0;
+    }
+    .col-md-9.right-bar {
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .col-md-3.left-bar {
+        order: 2;
+    }
+
+    .news-bigs .avarta {
+        margin-right: 10px;
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+
+    .news-bigs .info .desc {
+        display: none;
+    }
+
+    .news-bigs .info a {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .news-bigs {
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+    }
+
+    .news-bigs h1 {margin-bottom: 0;}
+
+    .item-news .avarta {
+        flex:  0 0 45%;
+        margin-right: 10px;
+    }
+
+    .item-news .desc {
+        display: none;
+    }
+
+    .item-news .info a {
+        font-size: 16px;
+    }
+
+    .item-news {
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+    }
+    .tags {
+        margin-bottom: 30px;
+    }
+    .slide-diseas {
+        margin: 0 0px;
+    }
+
+    .slide-diseas .item-slide {
+        padding: 0 5px;
+    }
+
+    .diseases .slick-arrow.prev {
+        left: 0;
+    }
+
+    .diseases .slick-arrow.next {
+        right: 0;
+    }
+    .slide-diseas .item {
+        padding: 15px;
+    }
+
+    .slide-diseas .item h3 {
+        font-size: 15px;
+    }
+    .header-top {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block !important;
+        padding: 6px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .menu-mobile .logo img {
+        height: 50px;
+    }
+
+    .translate select {
+        padding: 0 10px 0 25px;
+        height: 30px;
+        font-size: 13px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .translate:after {
+        top: 4px;
+    }
+
+    .menu-mobile .right {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .translate {
+        margin-right: 10px;
+    }
+
+    .header a {
+        font-size: 21px;
+        color: #c4842a;
+    }
+
+    .menu-mobile .row {
+        align-items: center;
+    }
+    main {
+        margin-top: 10px;
+    }
+
+    nav#menu {
+        z-index: 1001;
+        display: none;
+    }
+
+    nav#menu.mm-menu_opened {
+        display: block;
+    }
+}
+@media (max-width: 575px) {
+    .item-video iframe {
+        height: 120px;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+    .item-news .desc {
+        display: block;
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    .block-wrapper h2 {
+        font-size: 15px;
+    }
+
+    .block-wrapper .row .col-md-6 {
+        padding: 20px;
+    }
+
+    .item-why .desc h3 {
+        font-size: 16px;
+    }
+
+    .read-more a {
+        font-size: 15px;
+    }
+
+    .new-home h3 a {
+        font-size: 16px;
+    }
+
+    .item-agency a {
+        font-size: 15px;
+    }
+
+    .item-footer h3 {
+        font-size: 15px;
+    }
+
+    .item-footer ul a {
+        font-size: 13px;
+        font-weight: normal;
+    }
+
+    .title h2 {
+        font-size: 22px;
+    }
+    .news-bigs .info a {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .news-bigs .avarta {
+        flex: 0 0 55%;
+    }
+
+    .item-news .avarta {
+        flex: 0 0 200px;
+    }
+
+    .item-news .info a {
+        font-size: 15px;
+    }
+    .title-side {
+        font-size: 12px;
+    }
+
+    .box-side h3 {
+        font-size: 12px;
+    }
+
+    .bx-bgs a {font-size: 12px;}
+
+    .box-side a {
+        font-size: 12px;
+    }
+    .header-top {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block !important;
+        padding: 6px 0;
+        border-bottom: 1px solid #ddd;
+    }
+    .menu-mobile .logo img {
+        height: 50px;
+    }
+
+    .translate select {
+        padding: 0 10px 0 25px;
+        height: 30px;
+        font-size: 13px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+    .translate:after {
+        top: 4px;
+    }
+
+    .menu-mobile .right {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .translate {
+        margin-right: 10px;
+    }
+
+    .header a {
+        font-size: 21px;
+        color: #c4842a;
+    }
+
+    .menu-mobile .row {
+        align-items: center;
+    }
+    main {
+        margin-top: 10px;
+    }
+
+    nav#menu {
+        z-index: 1001;
+        display: none;
+    }
+
+    nav#menu.mm-menu_opened {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 1024px) {
+    .box-search input {
+        width: 180px;
+    }
+
+    .ctn-header-btn a {
+        font-size: 11px;
+        padding: 0 10px;
+        height: 30px;
+    }
+
+    .ctn-header-btn ul {
+        display: flex;
+    }
+
+}

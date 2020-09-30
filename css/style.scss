@@ -1,0 +1,21 @@
+@import "fonts.scss";
+$font: 'FontAwesome'; 
+$main: #333333;
+.avarta {
+    overflow: hidden;
+    position: relative;
+    img {
+        transition: .6s all;
+        &:hover {
+            transition: .6s all;
+            transform: scale(1.08);
+        }
+    }
+}
+.slick-slider {
+    margin-bottom: 0;
+    img {
+        display: inline;
+    }
+}
+  
