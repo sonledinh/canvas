@@ -14,7 +14,7 @@
 	<div class="footer-bott">
 		<div class="container">
 			<div class="row"> 
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="item-footer ft-place">
 						<div class="box-place">
 							<div class="tt-place text-center"><i class="fa fa-long-arrow-down"></i><span>Cửa hàng tại Hà Nội</span></div>
@@ -32,7 +32,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="item-footer">
 						<div class="title-ft text-uppercase"><span><i class="fa fa-bars"></i>Sản phẩm của chúng tôi</span></div>
 						<div class="menu-ft">
@@ -49,7 +49,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="item-footer">
 						<div class="title-ft text-uppercase"><span><i class="fa fa-bars"></i>CHỦ ĐỀ</span></div>
 						<div class="menu-ft">
@@ -63,7 +63,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-6">
 					<div class="item-footer">
 						<div class="title-ft text-uppercase"><span><i class="fa fa-bars"></i>FANPAGE</span></div>
 						<div class="fanpages"></div>

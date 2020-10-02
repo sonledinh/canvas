@@ -19,7 +19,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
-    <!-- <header>
+    <header>
         <div class="header-top">
             <div class="container">
                 <div class="ctn-head">
@@ -43,7 +43,7 @@
                                 </ul>
                             </div>
                             <div class="left-bottom">
-                                <ul class="list-inline d-flex justify-content-center align-items-center">
+                                <ul class="list-inline d-flex justify-content-between align-items-center">
                                     <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-map-marker"></i>các điểm bán hàng</a></li>
                                     <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-heart"></i>Sản phẩm yêu thích</a></li>
                                     <li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-calendar"></i>Kiển tra đơn hàng</a></li>
@@ -51,33 +51,30 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="head-cart"><a href="" class="text-uppercase"><span>giỏ hàng</span><i class="fa fa-shopping-cart"></i><label>2</label></a></div>
+                        <div class="header-cart"><a href="" class="text-uppercase"><span>giỏ hàng</span><i class="fa fa-shopping-cart"></i><label>2</label></a></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="header-menu">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-9">
-                        <ul>
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <ul class="menu-top">
                             <li><a href=""><i class="fa fa-home"></i></a></li>
                             <li><a href="">shop</a></li>
-                            <li><a href="">không gian</a></li>
-                            <li><a href="">chủ đề</a></li> 
+                            <li><a href="">không gian <i class="fa fa-angle-down"></i></a></li>
+                            <li><a href="">chủ đề <i class="fa fa-angle-down"></i></a></li> 
                             <li><a href="">best sellers</a></li>
                             <li><a href="">sản phẩm khác</a></li>
                             <li>
-                                <div class="box-login"><a href="javascript:void(0)"><i class="fa fa-user"></i></a></div>
+                                <div class="box-login-head"><a href="login.php"><i class="fa fa-user"></i></a></div>
                             </li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
-                            <li><a href=""></a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="menu-sale">
-                            <ul class="list-inline">
+                            <ul class="list-inline text-right justify-content-end">
                                 <li class="list-inline-item"><a href="javascript:void(0)" class="menu-tv">tư vấn thiết kế</a></li>
                                 <li class="list-inline-item"><a href="" class="flash-sale">flash sale</a></li>
                             </ul>
@@ -86,4 +83,4 @@
                 </div>
             </div>
         </div>
-    </header> -->
+    </header>

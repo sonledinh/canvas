@@ -126,7 +126,7 @@
 		<div class="container">
 			<div class="list-grid">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-grid">
 							<div class="avarta"><a href=""><img src="images/grid-1.png" class="img-fluid w-100" alt=""></a><span>Tranh Treo Tường Phòng Ăn</span></div>
 						</div>
@@ -134,12 +134,12 @@
 							<div class="avarta"><a href=""><img src="images/grid-2.png" class="img-fluid w-100" alt=""></a><span>Tranh Treo Tường Phòng Ăn</span></div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-grid">
 							<div class="avarta"><a href=""><img src="images/grid-3.png" class="img-fluid w-100" alt=""></a><span>Tranh Treo Tường Phòng Ăn</span></div>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4 col-sm-4">
 						<div class="item-grid">
 							<div class="avarta"><a href=""><img src="images/grid-4.png" class="img-fluid w-100" alt=""></a><span>Tranh Treo Tường Phòng Ăn</span></div>
 						</div>
@@ -220,7 +220,7 @@
 				</div>
 				<div class="list-prd-hot">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-1.jpg" class="img-fluid w-100" alt=""></a>
@@ -236,7 +236,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a>
@@ -252,7 +252,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a>
@@ -268,7 +268,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-4.jpg" class="img-fluid w-100" alt=""></a>
@@ -284,7 +284,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-3.jpg" class="img-fluid w-100" alt=""></a>
@@ -300,7 +300,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-2.jpg" class="img-fluid w-100" alt=""></a>
@@ -316,7 +316,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-1.jpg" class="img-fluid w-100" alt=""></a>
@@ -332,7 +332,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-6 col-sm-4">
 							<div class="item-prd">
 								<div class="avarta">
 									<a href=""><img src="images/prd-4.jpg" class="img-fluid w-100" alt=""></a>
