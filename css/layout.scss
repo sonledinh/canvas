@@ -18,12 +18,19 @@ header {
     justify-content: space-between;
 }
 .header-cart {
-    margin-left: 30px;
+    margin-left: 30px; 
+    position: relative;
+    &:hover {
+        .hver-cart {
+            transition: .3s all;
+            transform: scale(1);
+        }
+    }
     a {
         display: flex;
         height: 38px;
         align-items: center;
-        padding: 3px 25px 0px 20px;
+        padding: 3px 25px 0px 20px; 
         color: #fff;
         border: 1px solid #fff;
         border-radius: 6px;
@@ -94,6 +101,16 @@ header {
 }
 .header-menu {
     background: #818285;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 102;
+    transition: .3s all;
+    &.fixed-header {
+        position: fixed;
+        transition: .3s all;
+    }
     a {
         color: #fff;
         display: flex;
@@ -108,6 +125,7 @@ header {
 .menu-top {
     li {
         margin-right: 20px;
+        // position: relative; 
         > a {
             color: #fff;
             height: 60px;
@@ -121,6 +139,81 @@ header {
             &:hover {
                 color: $yellow;
             }
+        } 
+        &:hover {
+            .sub-menu {
+                transform: scale(1);
+                transition: .3s all;
+            }
+            .mega-menu {
+                display: block;
+            }
+        }
+    }
+}
+.mega-menu {
+    background: #fff;
+    padding: 10px 20px;
+    z-index: 2;
+    position: absolute;
+    width: 800px;
+    left: 0;
+    transition: .3s all;
+    top: 59px;
+    border: 1px solid #ddd;
+    display: none;
+    .col-md-2 {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    ul {
+        display: block;
+    }
+    li {
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+        margin-right: 0;
+        &:last-child {
+            border-bottom: 0;
+        }
+        h3 {
+            a {
+                font-weight: bold;
+            }
+        }
+        a {
+            color: $main;
+            height: auto;
+            text-transform: capitalize;
+            font-weight: normal;
+            font-size: 14px;
+        }
+    }
+}
+.sub-menu {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 260px;
+    z-index: 2;
+    padding: 10px 20px;
+    transition: .3s all;
+    transform: scale(0);
+    ul {
+        display: block;
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            &:last-child {
+                border-bottom: 0;
+            }
+        }
+        a {
+            color: $main;
+            height: auto;
+            text-transform: none;
+            font-weight: normal;
+            font-size: 15px;
         }
     }
 }
@@ -151,7 +244,91 @@ header {
         background: $yellow;
     }
 }
+.hver-cart {
+    color: #000000;
+    padding: 15px;
+    background: #Fff;
+    transition: .3s all;
+    width: 345px;
+    position: absolute;
+    z-index: 2;
+    top: 38px;
+    transform: scale(0);
+    right: 0;
+}
+.list-hver-cart {
+    height: 235px;
+    overflow: auto;
+    a {
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        color: #000000;
+        height: auto;
+    }
+    .pr {
+        display: flex;
+        padding-right: 30px;
+        align-items: center;
+        .avarta {
+            flex: 0 0 60px;
+            margin-right: 15px;
 
+        }
+        p {
+            font-size: 14px;
+        }
+    }
+    .item {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+        &:last-child {
+            border: 0;
+            padding-bottom: 0;
+        }
+        &:first-child {
+            padding-top: 0;
+        }
+    }
+    .remv {
+        flex: 0 0 30px;
+        text-align: right;
+    }
+}
+.total-cart {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    font-size: 15px;
+    border-bottom: 2px solid #ddd;
+}
+.btn-hver-cart {
+    padding-top: 10px;
+    li {
+        padding: 5px 0;
+    }
+    a {
+        height: 40px;
+        font-weight: bold;
+        justify-content: center;
+        &.view-cart {
+            background: $yellow;
+        }
+        &.h-checkout {
+            background: $red;
+        }
+    }
+}
+main {
+    margin-top: 0;
+    .fixed-header {
+        margin-top: 60px;
+    }
+}
 footer {
     background: #fff;
 }

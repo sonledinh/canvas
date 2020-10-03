@@ -106,7 +106,11 @@ header {
   justify-content: space-between; }
 
 .header-cart {
-  margin-left: 30px; }
+  margin-left: 30px;
+  position: relative; }
+  .header-cart:hover .hver-cart {
+    transition: .3s all;
+    transform: scale(1); }
   .header-cart a {
     display: flex;
     height: 38px;
@@ -172,7 +176,16 @@ header {
     margin-right: 6px; }
 
 .header-menu {
-  background: #818285; }
+  background: #818285;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 102;
+  transition: .3s all; }
+  .header-menu.fixed-header {
+    position: fixed;
+    transition: .3s all; }
   .header-menu a {
     color: #fff;
     display: flex;
@@ -194,6 +207,65 @@ header {
       margin-left: 8px; }
     .menu-top li > a:hover {
       color: #e6942b; }
+  .menu-top li:hover .sub-menu {
+    transform: scale(1);
+    transition: .3s all; }
+  .menu-top li:hover .mega-menu {
+    display: block; }
+
+.mega-menu {
+  background: #fff;
+  padding: 10px 20px;
+  z-index: 2;
+  position: absolute;
+  width: 800px;
+  left: 0;
+  transition: .3s all;
+  top: 59px;
+  border: 1px solid #ddd;
+  display: none; }
+  .mega-menu .col-md-2 {
+    flex: 0 0 20%;
+    max-width: 20%; }
+  .mega-menu ul {
+    display: block; }
+  .mega-menu li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    margin-right: 0; }
+    .mega-menu li:last-child {
+      border-bottom: 0; }
+    .mega-menu li h3 a {
+      font-weight: bold; }
+    .mega-menu li a {
+      color: #333333;
+      height: auto;
+      text-transform: capitalize;
+      font-weight: normal;
+      font-size: 14px; }
+
+.sub-menu {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ddd;
+  width: 260px;
+  z-index: 2;
+  padding: 10px 20px;
+  transition: .3s all;
+  transform: scale(0); }
+  .sub-menu ul {
+    display: block; }
+    .sub-menu ul li {
+      padding: 10px 0;
+      border-bottom: 1px solid #ddd; }
+      .sub-menu ul li:last-child {
+        border-bottom: 0; }
+    .sub-menu ul a {
+      color: #333333;
+      height: auto;
+      text-transform: none;
+      font-weight: normal;
+      font-size: 15px; }
 
 .box-login-head a {
   height: 40px;
@@ -215,6 +287,77 @@ header {
   background: #000000; }
 .menu-sale .flash-sale {
   background: #e6942b; }
+
+.hver-cart {
+  color: #000000;
+  padding: 15px;
+  background: #Fff;
+  transition: .3s all;
+  width: 345px;
+  position: absolute;
+  z-index: 2;
+  top: 38px;
+  transform: scale(0);
+  right: 0; }
+
+.list-hver-cart {
+  height: 235px;
+  overflow: auto; }
+  .list-hver-cart a {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    color: #000000;
+    height: auto; }
+  .list-hver-cart .pr {
+    display: flex;
+    padding-right: 30px;
+    align-items: center; }
+    .list-hver-cart .pr .avarta {
+      flex: 0 0 60px;
+      margin-right: 15px; }
+    .list-hver-cart .pr p {
+      font-size: 14px; }
+  .list-hver-cart .item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; }
+    .list-hver-cart .item:last-child {
+      border: 0;
+      padding-bottom: 0; }
+    .list-hver-cart .item:first-child {
+      padding-top: 0; }
+  .list-hver-cart .remv {
+    flex: 0 0 30px;
+    text-align: right; }
+
+.total-cart {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 15px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  font-size: 15px;
+  border-bottom: 2px solid #ddd; }
+
+.btn-hver-cart {
+  padding-top: 10px; }
+  .btn-hver-cart li {
+    padding: 5px 0; }
+  .btn-hver-cart a {
+    height: 40px;
+    font-weight: bold;
+    justify-content: center; }
+    .btn-hver-cart a.view-cart {
+      background: #e6942b; }
+    .btn-hver-cart a.h-checkout {
+      background: #f43a3a; }
+
+main {
+  margin-top: 0; }
+  main .fixed-header {
+    margin-top: 60px; }
 
 footer {
   background: #fff; }
@@ -702,7 +845,7 @@ footer {
 
 .filter {
   position: sticky;
-  top: 10px; }
+  top: 80px; }
 
 .item-product {
   box-shadow: 2px 2px 20px #00000026; }
@@ -755,7 +898,7 @@ footer {
   padding: 20px;
   border-radius: 8px;
   position: sticky;
-  top: 10px; }
+  top: 80px; }
   .info-preview h1 {
     font-size: 20px;
     font-weight: 500;
@@ -853,7 +996,7 @@ footer {
   background: #fff;
   padding: 25px 15px;
   position: sticky;
-  top: 10px; }
+  top: 80px; }
   .cart-right li {
     margin-bottom: 10px;
     font-size: 14px; }
@@ -1039,7 +1182,7 @@ footer {
   border: 2px solid #e6942b;
   background: #fff;
   position: sticky;
-  top: 10px;
+  top: 80px;
   padding: 20px; }
   .box-order h3 {
     font-size: 18px;

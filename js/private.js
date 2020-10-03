@@ -94,12 +94,20 @@ $('.clc-sale').click(function(event) {
     $('.box-code-sale').toggle(400);
 });
 
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 113) {
+        $('.header-menu, main').addClass('fixed-header');
+    }
+    else {
+        $('.header-menu, main').removeClass('fixed-header');
+    }
+});
 
-// jQuery(document).ready(function( $ ) {
-//   $("#menu").mmenu({
-//      "extensions": [
-//         "fx-menu-zoom"
-//      ],
-//      "counters": true
-//   });
-// });
+jQuery(document).ready(function( $ ) {
+  $("#menu").mmenu({
+     "extensions": [
+        "fx-menu-zoom"
+     ],
+     "counters": true
+  });
+});
