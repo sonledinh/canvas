@@ -11,7 +11,7 @@
 						<div class="view-all"><a href="">Xem 20.000+ bộ tranh</a></div>
 					</div>
 				</div>
-			</div>
+			</div> 
 		</div>
 	</section>
 	<section class="box-product pb-60">
